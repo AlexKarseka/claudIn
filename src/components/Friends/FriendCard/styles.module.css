@@ -1,0 +1,28 @@
+.friend__card {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ebedee;
+}
+
+.card__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.friend__cardInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7px;
+}
+
+.card__text {
+    display: flex;
+}
+
+.text__name {
+    margin-right: 5px;
+}

@@ -1,0 +1,29 @@
+.user__info {
+    background-color: white;
+    border-radius: 3px;
+    padding: 15px;
+    margin-bottom: 20px;
+    max-height: 280px;
+    overflow: hidden;
+}
+
+.user__infoHeader {
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ebedee;
+    margin-bottom: 10px;
+}
+
+.user__infoHeaderTitle {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.user__infoHeaderNumber {
+    color: #BCBEC0;
+}
+
+.grid__content{
+    display: flex;
+    flex-wrap: wrap;
+}

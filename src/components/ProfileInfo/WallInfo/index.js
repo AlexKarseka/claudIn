@@ -1,0 +1,1 @@
+export { WallInfo } from './WallInfo'

@@ -1,0 +1,15 @@
+.inserter__photo {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+.inserter__photoImg {
+    max-width: 135px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.inserter__photoImg:last-child {
+    margin-right: 0px;
+}

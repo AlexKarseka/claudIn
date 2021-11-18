@@ -1,0 +1,36 @@
+.news__wrapper {
+    max-width: 800px;
+    padding: 0 40px;
+}
+
+.news__box {
+    background-color: white;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.news__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 20px 20px;
+    border-bottom: 1px solid #ebedee;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.news__wall {
+    width: 100%;
+    min-height: 300px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    margin: 0 15px;
+    width: 100%;
+    height: 20px;
+    border: none;
+    padding: 0;
+    resize:none
+}

@@ -1,0 +1,22 @@
+.music {
+    max-width: 800px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+.music__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-bottom: 1px solid #ebedee;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.music__wall {
+    width: 100%;
+    min-height: 300px;
+    margin-bottom: 20px;
+}

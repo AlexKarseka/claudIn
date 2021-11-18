@@ -1,0 +1,13 @@
+.questionnaire{
+    display: grid;
+    grid-template-columns: 6fr 15fr;
+    margin-bottom: 10px;
+}
+
+.eeee{
+    width: 100%;
+}
+
+.questionnaire:last-child {
+    margin-bottom: 0;
+}

@@ -1,0 +1,1 @@
+export { InserterPhoto } from './InserterPhoto'

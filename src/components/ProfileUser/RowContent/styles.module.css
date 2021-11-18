@@ -1,0 +1,17 @@
+.row__contentBox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.row__contentImg {
+	width: 45px;
+    height: 45px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.row__contentKind {
+    font-size: 10px;
+    color: grey;
+}

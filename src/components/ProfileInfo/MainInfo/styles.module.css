@@ -1,0 +1,28 @@
+.main__info {
+    background-color: white;
+    border-radius: 3px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.main__infoHeader {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ebedee;
+}
+
+.main__infoName {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.main__infoStatus {
+    font-size: 15px;
+    color: #BCBEC0;
+}
+
+.main__infoData {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ebedee;
+}

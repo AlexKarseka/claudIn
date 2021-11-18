@@ -1,0 +1,43 @@
+.messenger {
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid white;
+    margin-right: 200px;
+}
+
+.messenger__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-bottom: 1px solid #ebedee;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.messenger__wall {
+    display: grid;
+    grid-template-columns: 5fr 10fr;
+}
+
+.messenger__wallChat {
+    position: relative;
+    background-image: url('https://kartinkin.com/uploads/posts/2021-01/1610823095_5-p-fon-chata-whatsapp-5.png');
+    background-size: cover;
+}
+
+.messenger__wallRuler{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 98%;
+    bottom: 0;
+}
+
+.messenger__wallArea {
+    background-color: #ebedee;
+    padding: 10px;
+    width: 100%;
+    height: 60px;
+    margin-right: 15px;
+}

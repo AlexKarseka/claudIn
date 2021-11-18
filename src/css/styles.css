@@ -1,0 +1,28 @@
+@import url('./normalize.css');
+@import url('./fonts.css');
+@import url('./castom-icons.css');
+
+
+body {
+	margin: 0 auto 30px auto;
+	color: #172B4D;
+	background: url(/src/img/92710411d6fcad79f19b208ee0177df2.jpg);
+	background-size: cover;
+	font-family: 'GoogleSans', Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+.claudIn__wrapper {
+	display: grid;
+	grid-template-areas: 
+	'head head'
+	'nav cont';
+	grid-template-rows: 60px 1fr;
+	grid-template-columns: 4fr 15fr;
+	grid-row-gap: 40px;
+}
+
+.claudIn__content {
+	grid-area: cont;
+}
